@@ -1,4 +1,6 @@
 "use client";
+// import profileImage from '/public/imgprofile.jpeg';
+import proImage from '/public/imageprofile.jpeg';
 import { ListFilter, Search } from "lucide-react";
 import { Input } from "../ui/input";
 import ThemeSwitch from "./theme-switch";
@@ -10,6 +12,8 @@ import { useConvexAuth, useQuery } from "convex/react";
 import { api } from "../../../convex/_generated/api";
 import { useEffect } from "react";
 import { useConversationStore } from "@/store/chat-store";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const LeftPanel = () => {
 	const { isAuthenticated, isLoading } = useConvexAuth();
@@ -61,7 +65,73 @@ const LeftPanel = () => {
 				{conversations?.map((conversation) => (
 					<Conversation key={conversation._id} conversation={conversation} />
 				))}
-
+			<div className='flex gap-6 pl-4 mb-4'>
+				<div >
+				<Image
+					src={proImage}
+					width={60}
+					height={40}
+					alt="Picture of the author"
+					className='rounded-full'
+				/>
+				</div>
+				<Link href="/chats">
+				<div >
+					<p className='font-semibold text-start text-nowrap text-xl '>John paul</p>
+					<p className='text-nowrap text-gray-500'>see you tommarow at bar</p>
+				</div>
+				</Link>
+				
+				
+			</div>
+			<div className='flex gap-6 pl-4 mb-4'>
+				<div >
+				<Image
+					src={proImage}
+					width={60}
+					height={40}
+					alt="Picture of the author"
+					className='rounded-full'
+				/>
+				</div>
+				<div>
+					<p className='font-semibold text-start text-nowrap text-xl '>Shambulinga</p>
+					<p className='text-nowrap text-gray-500'>how u doing man?</p>
+				</div>
+				
+			</div>
+			<div className='flex gap-6 pl-4 mb-4'>
+				<div >
+				<Image
+					src={proImage}
+					width={60}
+					height={40}
+					alt="Picture of the author"
+					className='rounded-full'
+				/>
+				</div>
+				<div>
+					<p className='font-semibold text-start text-nowrap text-xl '>zameer</p>
+					<p className='text-nowrap text-gray-500'>kaise ho bhe</p>
+				</div>
+				
+			</div>
+			<div className='flex gap-6 pl-4 mb-4'>
+				<div >
+				<Image
+					src={proImage}
+					width={60}
+					height={40}
+					alt="Picture of the author"
+					className='rounded-full'
+				/>
+				</div>
+				<div>
+					<p className='font-semibold text-start text-nowrap text-xl '>avanith</p>
+					<p className='text-nowrap text-gray-500'>u r u coming to bangalore</p>
+				</div>
+				
+			</div>
 				{conversations?.length === 0 && (
 					<>
 						<p className='text-center text-gray-500 text-sm mt-3'>No conversations yet</p>
