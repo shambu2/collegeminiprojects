@@ -1,4 +1,4 @@
-<a href="https://youtu.be/sQ1zvdS8eU8">
+<!-- <a href="https://youtu.be/sQ1zvdS8eU8">
   <img alt="AI-powered WhatsApp." src="https://i.ibb.co/YcWpZ5F/Screenshot-24.png">
   <h1 align="center">AI Powered WhatsApp Clone</h1>
 </a>
@@ -46,4 +46,4 @@ You can deploy this app by setting up the following services and adding their en
 
 ## Thanks for your support
 
--   Like && Subscribe for more projects like this
+-   Like && Subscribe for more projects like this -->
