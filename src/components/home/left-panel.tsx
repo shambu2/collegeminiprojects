@@ -130,7 +130,7 @@ const LeftPanel = () => {
 				/>
 				</div>
 				<div>
-					<p className='font-semibold text-start text-nowrap text-xl '>avanith</p>
+					<p className='font-semibold text-start text-nowrap text-xl '>Anvika</p>
 					<p className='text-nowrap text-gray-500'>u r u coming to bangalore</p>
 				</div>
 				

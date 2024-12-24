@@ -5,7 +5,11 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
-
+.env.local
+.Convex-crash-course
+.Copy-as-you-go
+.COPY-PASTE-UI
+.env.local
 # testing
 /coverage
 
