@@ -27,13 +27,16 @@ export default function Home() {
               </p>
             </div>
             <div className=" ">
-              
+              <Link href="/video-call">
               <Video size={23} className="mr-10" />
+              </Link>
+              
             </div>
+            
           </div>
           <div>
-
-          </div>
+              <p>the end of it</p>
+            </div>
         </div>
       </div>
     </main>

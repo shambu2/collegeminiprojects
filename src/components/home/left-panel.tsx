@@ -1,6 +1,9 @@
 "use client";
 // import profileImage from '/public/imgprofile.jpeg';
 import proImage from '/public/imageprofile.jpeg';
+import avanitha from '/public/avanithafinalphoto.jpeg'
+import cat from '/public/catfinalphoto.jpeg'
+import man1 from '/public/men1finalphoto.jpeg'
 import { ListFilter, Search } from "lucide-react";
 import { Input } from "../ui/input";
 import ThemeSwitch from "./theme-switch";
@@ -87,7 +90,7 @@ const LeftPanel = () => {
 			<div className='flex gap-6 pl-4 mb-4'>
 				<div >
 				<Image
-					src={proImage}
+					src={man1}
 					width={60}
 					height={40}
 					alt="Picture of the author"
@@ -103,7 +106,7 @@ const LeftPanel = () => {
 			<div className='flex gap-6 pl-4 mb-4'>
 				<div >
 				<Image
-					src={proImage}
+					src={cat}
 					width={60}
 					height={40}
 					alt="Picture of the author"
@@ -119,7 +122,7 @@ const LeftPanel = () => {
 			<div className='flex gap-6 pl-4 mb-4'>
 				<div >
 				<Image
-					src={proImage}
+					src={avanitha}
 					width={60}
 					height={40}
 					alt="Picture of the author"
